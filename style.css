@@ -11,10 +11,28 @@
     font-size: 24px;
 }
 
-.img{
-    display: flex; 
-    flex-direction: row;
-    height: 95vh;
-    width:min-content;
-    overflow: hidden;
+.word{
+    color:aquamarine
+}
+
+.word1{
+    color:teal;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.brand-section {
+    position: relative;
+    color:green;
+    text-align: center;
+    padding: 100px 0;
+    background-image: url("pexels-catscoming-674574.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
