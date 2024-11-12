@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("pexels-catscoming-674574.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 .navbar-brand {
     font-family: 'Roboto', sans-serif;
     color: #dc3545 !important;
@@ -12,14 +20,15 @@
 }
 
 .word{
-    color:aquamarine
+    color:aquamarine;
 }
 
 .word1{
-    color:teal;
+    color:whitesmoke;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 .brand-section {
@@ -27,8 +36,6 @@
     color:green;
     text-align: center;
     padding: 100px 0;
-    background-image: url("pexels-catscoming-674574.jpg");
-    background-size: cover;
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -36,3 +43,27 @@
     justify-content: center;
     align-items: center;
 }
+
+.card {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+  }
+  
+  .card-title {
+    color: #333;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
+  .btn-primary {
+    background-color:burlywood ;
+    border-color:tan;
+  }
+  
+  .btn-primary:hover {
+    background-color:rebeccapurple;
+    border-color: #0062cc;
+  }
